@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Pre-Workout Berry Creatine Slush">
+  <defs>
+    <linearGradient id="bgS" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EAECEF"/>
+    </linearGradient>
+    <linearGradient id="slush" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="55%" stop-color="#9F1239"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bgS)"/>
+  <ellipse cx="320" cy="348" rx="95" ry="14" fill="#1A1D20" opacity="0.13"/>
+  <!-- Glass -->
+  <path d="M248 92 L392 92 L370 338 Q368 350 355 350 L285 350 Q272 350 270 338 Z" fill="#FFFFFF" fill-opacity="0.72" stroke="#CBD5E1" stroke-width="2.5"/>
+  <!-- Berry Slush Fill -->
+  <path d="M256 130 Q320 112 384 130 L366 336 Q364 344 353 344 L287 344 Q276 344 274 336 Z" fill="url(#slush)"/>
+  <!-- Fresh Berries & Mint -->
+  <circle cx="292" cy="122" r="15" fill="#BE123C"/>
+  <circle cx="326" cy="116" r="14" fill="#312E81"/>
+  <circle cx="352" cy="126" r="13" fill="#9F1239"/>
+  <path d="M322 108 Q348 74 374 88 Q350 114 322 108 Z" fill="#10B981"/>
+  <path d="M320 108 Q302 72 280 88 Q298 112 320 108 Z" fill="#059669"/>
+  <!-- Straw -->
+  <rect x="348" y="42" width="10" height="260" rx="5" transform="rotate(10 353 172)" fill="#F97316"/>
+  <!-- Badge -->
+  <rect x="44" y="38" width="192" height="44" rx="22" fill="#10B981"/>
+  <text x="140" y="65" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="14" fill="#FFFFFF">3g CREATINE • 65 KCAL</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="MBP Organic Plant Protein Cafe Mocha Pouch">
+  <defs>
+    <linearGradient id="bgP" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#ECEFF3"/>
+    </linearGradient>
+    <linearGradient id="pouch" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EAECEF"/>
+      <stop offset="30%" stop-color="#FFFFFF"/>
+      <stop offset="75%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#DCDFE4"/>
+    </linearGradient>
+    <filter id="shP" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#1A1D20" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bgP)"/>
+  <ellipse cx="320" cy="414" rx="145" ry="18" fill="#1A1D20" opacity="0.12"/>
+  <g filter="url(#shP)">
+    <!-- Standup Pouch -->
+    <path d="M202 82 Q320 72 438 82 L456 382 Q456 404 426 406 L214 406 Q184 404 184 382 Z" fill="url(#pouch)" stroke="#D1D5DB" stroke-width="1.5"/>
+    <!-- Zip seal line -->
+    <line x1="201" y1="108" x2="439" y2="108" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="6 4"/>
+    <!-- Emerald Header Accent -->
+    <path d="M196 135 H444 L447 215 H193 Z" fill="#10B981"/>
+    <path d="M193 215 H447 L452 345 H188 Z" fill="#1A1D20"/>
+    <!-- Brand Text -->
+    <text x="320" y="172" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="25" fill="#FFFFFF" letter-spacing="2">MBP NUTRITION</text>
+    <text x="320" y="196" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="11" fill="#ECFDF5" letter-spacing="2.5">100% VEGAN • CLEAN LABEL</text>
+    <text x="320" y="254" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">ORGANIC PLANT</text>
+    <text x="320" y="280" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="22" fill="#10B981">PROTEIN</text>
+    <text x="320" y="304" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="11" fill="#D1D5DB">PEA &amp; BROWN RICE BLEND</text>
+    <rect x="248" y="317" width="144" height="20" rx="10" fill="#F97316"/>
+    <text x="320" y="330.5" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="10.5" fill="#FFFFFF">CAFE MOCHA • 24g PROTEIN</text>
+    <!-- Footer badge on pouch -->
+    <text x="320" y="378" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="11" fill="#1A1D20">0g SUGAR • DIGESTIVE ENZYMES • 1 KG</text>
+  </g>
+</svg>
